@@ -7,6 +7,7 @@ import Tabs from "react-bootstrap/Tabs";
 // import { relative } from 'path';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+//small change
 
 const About = () => {
   // const {key, setKey} = useState('home');
