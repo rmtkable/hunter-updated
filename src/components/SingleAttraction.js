@@ -22,7 +22,7 @@ class SingleAttraction extends Component {
     }
 }
 componentDidMount() {
-    axios.get('http://localhost:5000/attractions/' + this.props.match.params.id)
+    axios.get('https://hunter-updated-api.onrender.com/attractions/' + this.props.match.params.id)
     .then((response) => {
         this.setState({
             name: response.data.name,
